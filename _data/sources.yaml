@@ -1,23 +1,41 @@
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
-  tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+# - id: doi:10.1371/journal.pcbi.1007128
+#   type: paper
+#   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#   date: 2020-12-4
+#   image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+#   buttons:
+#     - type: manubot
+#       link: https://greenelab.github.io/meta-review/
+#     - type: source
+#       text: Manuscript Source
+#       link: https://github.com/greenelab/meta-review
+#     - type: website
+#       link: http://manubot.org/
+#   tags:
+#     - open science
+#     - collaboration
+#   repo: greenelab/meta-review
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+# - id: doi:10.1016/j.csbj.2020.05.017
+#   image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+# - id: doi:10.7554/eLife.32822
+#   image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+
+- id: doi:10.1145/3395769
+  image: images/doi_10.1145__3395769.jpg
+
+- id: doi:10.1145/3428658.3430972
+  image: images/doi_10.1145__3428658.3430972.jpg
+
+- id: doi:10.1007/978-3-031-62846-7_52
+  image: images/doi_10.1007__978-3-031-62846-7_52.jpg
+
+- id: doi:10.1145/3617023.3617027
+  image: images/doi_10.1145__3617023.3617027.jpg
+
+- id: doi:10.5753/webmedia_estendido.2022.227254
+  image: images/doi_10.5753__webmedia_estendido.2022.227254.jpg
+
+- id: doi:10.5753/webmedia_estendido.2023.235450
+  image: images/doi_10.5753__webmedia_estendido.2023.235450.jpg

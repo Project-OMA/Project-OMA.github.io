@@ -7,27 +7,43 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our team is a multidisciplinary and complementary team that brings together professors and undergraduate, master's, and PhD students from the Federal University of Ceará, CEFET/RJ, and IFCE/CE, with experience in software development and orientation and mobility.
 
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
-%}
-{%
-  include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  text="agebson"
+  link="agebson@ifce.edu.br"
 %}
 {%
   include button.html
   type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  tooltip="IFCE/CE - Campus Maracanaú"
+  link="https://maps.app.goo.gl/gFqYh2DgzSafRevx7"
+%}
+{%
+  include button.html
+  type="email"
+  text="joel"
+  link="jsantos@eic.cefet-rj.br"
+%}
+{%
+  include button.html
+  type="address"
+  tooltip="CEFET/RJ - Unidade Maracanã"
+  link="https://maps.app.goo.gl/dy13StKA6rtGiZq57"
+%}
+{%
+  include button.html
+  type="email"
+  text="windson"
+  link="windson@virtual.ufc.br"
+%}
+{%
+  include button.html
+  type="address"
+  tooltip="Great/UFC"
+  link="https://maps.app.goo.gl/oepSdQ18VLS87G9Z7"
 %}
 
 {% include section.html %}
@@ -36,8 +52,8 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/cefet_rj.png"
+  caption="CEFET/RJ"
 %}
 
 {% endcapture %}
@@ -46,32 +62,20 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/great_ufc.png"
+  caption="Great/UFC"
 %}
 
 {% endcapture %}
 
-{% include cols.html col1=col1 col2=col2 %}
-
-{% include section.html dark=true %}
-
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
 {% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+
+{%
+  include figure.html
+  image="images/ifce_maracanau.png"
+  caption="IFCE/CE"
+%}
+
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 col3=col3 %}

@@ -1,14 +1,13 @@
 ---
-title: Projects
+title: Works
 nav:
   order: 2
   tooltip: Software, datasets, and more
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html icon="fa-solid fa-wrench" %}Works
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Some of the works developed through this project are the Editor-E3, Player ENA, Ena-Rewritten, and EdKit.
 
 {% include tags.html tags="publication, resource, website" %}
 

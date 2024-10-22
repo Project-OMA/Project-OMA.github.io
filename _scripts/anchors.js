@@ -38,10 +38,10 @@
   };
 
   // after page loads
-  window.addEventListener("load", onLoad);
-  window.addEventListener("load", scrollToTarget);
-  window.addEventListener("tagsfetched", scrollToTarget);
+  // window.addEventListener("load", onLoad);
+  // window.addEventListener("load", scrollToTarget);
+  // window.addEventListener("tagsfetched", scrollToTarget);
 
   // when hash nav happens
-  window.addEventListener("hashchange", scrollToTarget);
+  // window.addEventListener("hashchange", scrollToTarget);
 }
