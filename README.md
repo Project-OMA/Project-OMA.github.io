@@ -1,6 +1,6 @@
 
 # Project Orientation & Mobility Analytics
 
-Visit **[oma.multisens.com.br](http://oma.multisens.com.br)** 🚀
+Visit **[project-oma.github.io](https://project-oma.github.io)** 🚀
 
 _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
